@@ -1,0 +1,696 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MonthEnd
+</name>
+</assembly>
+<members>
+<member name="T:MonthEnd.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MonthEnd.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MonthEnd.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.LoadDataTypesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.practicegroupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.wRVUPatientDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CopyFoldersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CodingProfilesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProvidersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.TTMHistoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.SVMCEncountersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.SpecialProcessingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.MissingChargesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProviderReportsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.NXReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CopyFolders2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.wRVUPatientDetailAuditDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CopyFolders3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.wRVUSupervisorPatientDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProviderReports2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProviderReportsNotFoundDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ReportsSentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.providerreportsattributesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProvidersNotFoundDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CodingProfilesSentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProvidersInDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProviderReportsAttributesInDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.distributionlistDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ManagerReportsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ManagerReportFilesListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ManagerReportFilesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ReportsCheckListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.specialprocessingcodingprofilesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.SpecialtiesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.LoadDataTypesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.practicegroupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.wRVUPatientDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CopyFoldersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CodingProfilesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProvidersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.TTMHistoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.SVMCEncountersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.SpecialProcessingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.MissingChargesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProviderReportsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.NXReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CopyFolders2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.wRVUPatientDetailAuditRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CopyFolders3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.wRVUSupervisorPatientDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProviderReports2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProviderReportsNotFoundRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ReportsSentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.providerreportsattributesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProvidersNotFoundRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CodingProfilesSentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProvidersInRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProviderReportsAttributesInRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.distributionlistRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ManagerReportsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ManagerReportFilesListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ManagerReportFilesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ReportsCheckListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.specialprocessingcodingprofilesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.SpecialtiesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.LoadDataTypesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.practicegroupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.wRVUPatientDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CopyFoldersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CodingProfilesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProvidersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.TTMHistoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.SVMCEncountersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.SpecialProcessingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.MissingChargesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProviderReportsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.NXReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CopyFolders2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.wRVUPatientDetailAuditRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CopyFolders3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.wRVUSupervisorPatientDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProviderReports2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProviderReportsNotFoundRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ReportsSentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.providerreportsattributesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProvidersNotFoundRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.CodingProfilesSentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProvidersInRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ProviderReportsAttributesInRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.distributionlistRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ManagerReportsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ManagerReportFilesListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ManagerReportFilesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.ReportsCheckListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.specialprocessingcodingprofilesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1.SpecialtiesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.LoadDataTypesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.practicegroupTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.wRVUPatientDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.CopyFoldersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.CodingProfilesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.ProvidersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.TTMHistoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.SVMCEncountersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.SpecialProcessingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.MissingChargesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.ProviderReportsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.NXReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.CopyFolders2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.wRVUPatientDetailAuditTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.CopyFolders3TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.wRVUSupervisorPatientDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.ProviderReports2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.ProviderReportsNotFoundTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.ReportsSentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.providerreportsattributesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.ProvidersNotFoundTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.CodingProfilesSentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.ProvidersInTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.ProviderReportsAttributesInTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.distributionlistTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.ManagerReportsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.ManagerReportFilesListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.ManagerReportFilesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.ReportsCheckListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.specialprocessingcodingprofilesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.SpecialtiesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MonthEnd.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(MonthEnd.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MonthEnd.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(MonthEnd.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MonthEnd.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(MonthEnd.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MonthEnd.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MonthEnd.DataSet1TableAdapters.TableAdapterManager.UpdateAll(MonthEnd.DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MonthEnd.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MonthEnd.MonthEndDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

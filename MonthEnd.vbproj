@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3716993F-F679-4AE1-B4A4-652DDA858C7F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MonthEnd.My.MyApplication</StartupObject>
+    <RootNamespace>MonthEnd</RootNamespace>
+    <AssemblyName>MonthEnd</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\CHPSQL\Publish\</InstallUrl>
+    <ApplicationRevision>54</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MonthEnd.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MonthEnd.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C5D7FE7E6338B29547393760D04A4E04EAED53D9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MonthEnd_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddRptType.Designer.vb">
+      <DependentUpon>AddRptType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddRptType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Audit.Designer.vb">
+      <DependentUpon>Audit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Audit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Audit2.Designer.vb">
+      <DependentUpon>Audit2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Audit2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodingProfiles.Designer.vb">
+      <DependentUpon>CodingProfiles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CodingProfiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodingProfilesSent.Designer.vb">
+      <DependentUpon>CodingProfilesSent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CodingProfilesSent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CopyFolders2.Designer.vb">
+      <DependentUpon>CopyFolders2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CopyFolders2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.vb">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteWhat.Designer.vb">
+      <DependentUpon>DeleteWhat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteWhat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DistributionList.Designer.vb">
+      <DependentUpon>DistributionList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DistributionList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documentation.Designer.vb">
+      <DependentUpon>Documentation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Encounters.Designer.vb">
+      <DependentUpon>Encounters.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Encounters.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerReportFiles.Designer.vb">
+      <DependentUpon>ManagerReportFiles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerReportFiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerReportFilesList.Designer.vb">
+      <DependentUpon>ManagerReportFilesList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerReportFilesList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerReports.Designer.vb">
+      <DependentUpon>ManagerReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MEDirectories.Designer.vb">
+      <DependentUpon>MEDirectories.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MEDirectories.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MEProcessing.Designer.vb">
+      <DependentUpon>MEProcessing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MEProcessing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="METasks.Designer.vb">
+      <DependentUpon>METasks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="METasks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MissingCharges.Designer.vb">
+      <DependentUpon>MissingCharges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MissingCharges.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonthEndDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MonthEndDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NewProviders.Designer.vb">
+      <DependentUpon>NewProviders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewProviders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NXHealthDoc.Designer.vb">
+      <DependentUpon>NXHealthDoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NXHealthDoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NXReport.Designer.vb">
+      <DependentUpon>NXReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NXReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientDetail.Designer.vb">
+      <DependentUpon>PatientDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PatientDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientDetailAudit.Designer.vb">
+      <DependentUpon>PatientDetailAudit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PatientDetailAudit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PracticeSpecialties.Designer.vb">
+      <DependentUpon>PracticeSpecialties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PracticeSpecialties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRNotFound.Designer.vb">
+      <DependentUpon>PRNotFound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PRNotFound.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProviderReports2.Designer.vb">
+      <DependentUpon>ProviderReports2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProviderReports2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProviderReports2Sent.Designer.vb">
+      <DependentUpon>ProviderReports2Sent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProviderReports2Sent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProviderReportsAttributes.Designer.vb">
+      <DependentUpon>ProviderReportsAttributes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProviderReportsAttributes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Providers.Designer.vb">
+      <DependentUpon>Providers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Providers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProvidersIn.Designer.vb">
+      <DependentUpon>ProvidersIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProvidersIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecreateDoc.Designer.vb">
+      <DependentUpon>RecreateDoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RecreateDoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportsCheckList.Designer.vb">
+      <DependentUpon>ReportsCheckList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportsCheckList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SentDt.Designer.vb">
+      <DependentUpon>SentDt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SentDt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecialProcessing.Designer.vb">
+      <DependentUpon>SpecialProcessing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialProcessing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupervisorPatientDtl.Designer.vb">
+      <DependentUpon>SupervisorPatientDtl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SupervisorPatientDtl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SvemgMhmgDoc.Designer.vb">
+      <DependentUpon>SvemgMhmgDoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SvemgMhmgDoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTM.Designer.vb">
+      <DependentUpon>TTM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TTM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddRptType.resx">
+      <DependentUpon>AddRptType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Audit.resx">
+      <DependentUpon>Audit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Audit2.resx">
+      <DependentUpon>Audit2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodingProfiles.resx">
+      <DependentUpon>CodingProfiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodingProfilesSent.resx">
+      <DependentUpon>CodingProfilesSent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyFolders2.resx">
+      <DependentUpon>CopyFolders2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteWhat.resx">
+      <DependentUpon>DeleteWhat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DistributionList.resx">
+      <DependentUpon>DistributionList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documentation.resx">
+      <DependentUpon>Documentation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Encounters.resx">
+      <DependentUpon>Encounters.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerReportFiles.resx">
+      <DependentUpon>ManagerReportFiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerReportFilesList.resx">
+      <DependentUpon>ManagerReportFilesList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerReports.resx">
+      <DependentUpon>ManagerReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MEDirectories.resx">
+      <DependentUpon>MEDirectories.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MEProcessing.resx">
+      <DependentUpon>MEProcessing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="METasks.resx">
+      <DependentUpon>METasks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MissingCharges.resx">
+      <DependentUpon>MissingCharges.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewProviders.resx">
+      <DependentUpon>NewProviders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NXHealthDoc.resx">
+      <DependentUpon>NXHealthDoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NXReport.resx">
+      <DependentUpon>NXReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientDetail.resx">
+      <DependentUpon>PatientDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientDetailAudit.resx">
+      <DependentUpon>PatientDetailAudit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PracticeSpecialties.resx">
+      <DependentUpon>PracticeSpecialties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRNotFound.resx">
+      <DependentUpon>PRNotFound.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProviderReports2.resx">
+      <DependentUpon>ProviderReports2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProviderReports2Sent.resx">
+      <DependentUpon>ProviderReports2Sent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProviderReportsAttributes.resx">
+      <DependentUpon>ProviderReportsAttributes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Providers.resx">
+      <DependentUpon>Providers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProvidersIn.resx">
+      <DependentUpon>ProvidersIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecreateDoc.resx">
+      <DependentUpon>RecreateDoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsCheckList.resx">
+      <DependentUpon>ReportsCheckList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SentDt.resx">
+      <DependentUpon>SentDt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecialProcessing.resx">
+      <DependentUpon>SpecialProcessing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupervisorPatientDtl.resx">
+      <DependentUpon>SupervisorPatientDtl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SvemgMhmgDoc.resx">
+      <DependentUpon>SvemgMhmgDoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TTM.resx">
+      <DependentUpon>TTM.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MonthEndDataSet.xsc">
+      <DependentUpon>MonthEndDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MonthEndDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MonthEndDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MonthEndDataSet.xss">
+      <DependentUpon>MonthEndDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MonthEndReporting.pdf" />
+    <None Include="MonthEnd_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Acrobat">
+      <Guid>{E64169B3-3592-47D2-816E-602C5C13F328}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ADODB">
+      <Guid>{B691E011-1797-432E-907A-4D8C69339129}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
